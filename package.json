@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "project": "^0.1.6",
+    "readline-sync": "^1.4.10"
+  }
 }
-  
-}
-
