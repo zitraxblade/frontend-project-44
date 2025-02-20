@@ -22,5 +22,8 @@
   "homepage": "https://github.com/zitraxblade/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.20.1"
   }
 }
