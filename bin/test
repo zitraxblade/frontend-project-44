@@ -1,0 +1,43 @@
+    const braingames = () => {
+    const user = () => {
+    console.log('Welcome to the Brain Games!');
+    const name = readlineSync.question('May I have your name? ');
+    return console.log(`Hello, ${name}!`);
+    };
+    const names = user();
+
+    console.log('Answer "yes" if the number is even, otherwise answer "no".')
+    if (playerWin()) {
+        console.log(`Congratulations, ${names}!`);
+    } else {
+        console.log(`Let's try again, ${names}!`);
+    }
+};
+    const playerWin = () => {
+    const win = (finish) => {
+    if (finish === 0) {
+    return true;
+  }
+    const random = getRandom(100);
+    const num = random % 2;
+    console.log(`Question:${random}`);
+    const userAnswer = readlineSync.question('Your answer: ')
+
+    if ( num === 0) {
+        if (userAnswer === 'no') {
+            console.log('Correct!')
+            finish = finish - 1;
+            
+        } else {
+            console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.`);
+            return false;
+        }
+    }
+    }
+    return win(3)
+
+};
+const getRandom = (max) => {
+    return  Math.floor(Math.random() * max )
+};
+braingames()
