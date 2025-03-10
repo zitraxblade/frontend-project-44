@@ -31,10 +31,8 @@ function gameStart () {
         console.log(`${userAnswer} is wrong answer ;(. Correct answer was "no".\n Let's try again ${names}`);
     return false;
     }
-    if(isCorrectGame) {
     console.log(`Congratulations, ${names}`)
     }
     }
-}
 gameStart();
 export default gameStart;
