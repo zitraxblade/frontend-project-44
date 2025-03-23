@@ -3,7 +3,16 @@ import randomNum from "../randomNum.js";
 const text = "Find the greatest common divisor of given numbers.";
 
 // Функция Евклида.
-const getGcd = (a, b) => ((a % b) ? getGcd(b, a % b) : Math.abs(b));
+const getGcd = (a, b) => {
+  while (a != b) {
+    if (a > b) {
+      a -= b;
+    } else {
+      b -= a;
+    }
+  }
+  return a;
+};
 
 // Функция игры.
 const gameGcd = () => {
@@ -13,6 +22,8 @@ const gameGcd = () => {
   const correctAnswer = getGcd(number1, number2);
   return { question, correctAnswer };
 };
+
+// Запуск игры.
 const runGcd = () => {
   runGame(text, gameGcd);
 };
