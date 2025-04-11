@@ -23,11 +23,11 @@ const randomNums = (maxes = max, min = 0) => {
 const text = "What is the result of the expression?";
 // Логика игры.
 const gameCalc = () => {
-  const leftnum = randomNum();
-  const rightnum = randomNum();
+  const number1 = randomNum();
+  const number2 = randomNum();
   const operator = operations[randomNums(2)];
-  const question = `${leftnum} ${operator} ${rightnum}`;
-  const correctAnswer = calculator(leftnum, rightnum, operator);
+  const question = `${number1} ${operator} ${number2}`;
+  const correctAnswer = calculator(number1, number2, operator);
   return { question, correctAnswer };
 };
 
