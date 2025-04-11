@@ -1,5 +1,6 @@
 import runGame from "../index.js";
 import randomNum from "../randomNum.js";
+
 const text = "Find the greatest common divisor of given numbers.";
 
 // Функция Евклида.
@@ -27,5 +28,5 @@ const gameGcd = () => {
 const runGcd = () => {
   runGame(text, gameGcd);
 };
-runGcd();
+
 export default runGcd;
