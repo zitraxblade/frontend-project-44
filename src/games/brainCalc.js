@@ -33,7 +33,7 @@ const gameCalc = () => {
 
 // Запуск игры.
 const runCalc = () => {
-  runGame(text, gameCalc);
+  runGame(text, brainCalc);
 };
 
 export default runCalc;
