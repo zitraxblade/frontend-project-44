@@ -31,7 +31,7 @@ const gameCalc = () => {
 };
 
 const runCalc = () => {
-  runGame(text, brainCalc);
+  runGame(text, gameCalc);
 };
 
 export default runCalc;
