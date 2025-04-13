@@ -1,9 +1,8 @@
 import randomNum from "../randomNum.js";
 import runGame from "../index.js";
-// Операторы.
+
 const operations = ["+", "*", "-"];
 
-// Функция калькулятора.
 const calculator = (num1, num2, operator) => {
   switch (operator) {
     case "+":
@@ -14,14 +13,14 @@ const calculator = (num1, num2, operator) => {
       return num1 * num2;
   }
 };
-// Функция рандомного числа для оператора.
+
 const max = 100;
 const randomNums = (maxes = max, min = 0) => {
   return Math.round(Math.random() * (maxes - min));
 };
 
 const text = "What is the result of the expression?";
-// Логика игры.
+
 const gameCalc = () => {
   const number1 = randomNum();
   const number2 = randomNum();
@@ -31,7 +30,6 @@ const gameCalc = () => {
   return { question, correctAnswer };
 };
 
-// Запуск игры.
 const runCalc = () => {
   runGame(text, brainCalc);
 };
