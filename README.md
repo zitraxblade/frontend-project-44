@@ -8,7 +8,6 @@
 
 brain-even — Игра на проверку четности числа. Если ответ неверный,то игра начнется с начала.
 ![image](https://github.com/user-attachments/assets/37e07edd-7780-4a72-a556-1e42bd1f60bf)
-
 ![image](https://github.com/user-attachments/assets/49294f4a-05bb-493b-871a-b277b85dda3a)
 
 brain-calc — Игра на решение математических выражений. Если ответ неверный,то игра начнется с начала.
@@ -17,9 +16,8 @@ brain-calc — Игра на решение математических выр�
 
 brain-gcd — Игра на нахождение наибольшего общего делителя. Если ответ неверный,то игра начнется с начала.
 
-![image](https://github.com/user-attachments/assets/9c152127-d89f-4b63-ac5d-fe8ca11e8dcc)
-
-![image](https://github.com/user-attachments/assets/3545f793-6f33-4a78-ad66-059209537d3a)
+![image](https://github.com/user-attachments/assets/df04b672-28f9-4154-b419-6f3c180ebae8)
+![image](https://github.com/user-attachments/assets/fbd08251-56df-4110-8141-6db2494a2bd4)
 
 brain-progression — Игра на нахождение пропущенного числа в арифметической прогрессии. 
 ![image](https://github.com/user-attachments/assets/5c57f478-172b-4b25-9cc6-6b6ddd38ef27)
