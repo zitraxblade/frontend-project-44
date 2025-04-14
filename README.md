@@ -23,7 +23,7 @@ brain-gcd — Игра на нахождение наибольшего обще
 ![image](https://github.com/user-attachments/assets/3545f793-6f33-4a78-ad66-059209537d3a)
 
 brain-progression — Игра на нахождение пропущенного числа в арифметической прогрессии. 
-Если ответ неверный,то игра начнется с начала.
+
 ![image](https://github.com/user-attachments/assets/00b5800d-08d6-472c-a166-0804a92590ad)
 
 
