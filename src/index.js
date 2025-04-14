@@ -10,17 +10,18 @@ const runGame = (text, qustionAndAnswer) => {
     const { question, correctAnswer } = qustionAndAnswer();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your Answer:');
-    if (userAnswer.trim() == correctAnswer) {
+    if (userAnswer.trim() === correctAnswer) {
       console.log('Correct!');
     } else {
       console.log(
-        `${userAnswer} is wrong answer; (.Correct answer was ${correctAnswer}\n Let's try again, ${userName}!`
+        `${userAnswer} is wrong answer; (.Correct answer was ${correctAnswer}\n Let's try again, ${userName}!`,
       );
       return false;
     }
   }
 
   console.log(`Congratulations, ${userName}!`);
+  return true;
 };
 
 export default runGame;

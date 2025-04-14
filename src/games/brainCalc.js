@@ -11,13 +11,13 @@ const calculator = (num1, num2, operator) => {
       return num1 - num2;
     case '*':
       return num1 * num2;
+  default:
+      return null;
   }
 };
 
 const max = 100;
-const randomNums = (maxes = max, min = 0) => {
-  return Math.round(Math.random() * (maxes - min));
-};
+const randomNums = (maxes = max, min = 0) => Math.round(Math.random() * (maxes - min));
 
 const text = 'What is the result of the expression?';
 
