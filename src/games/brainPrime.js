@@ -1,7 +1,8 @@
-import randomNum from "../randomNum.js";
-import runGame from "../index.js";
+import randomNum from '../randomNum.js';
+import runGame from '../index.js';
 
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description =
+  'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const numPrime = (num) => {
   if (num < 2) {

@@ -1,7 +1,7 @@
-import randomNum from "../randomNum.js";
-import runGame from "../index.js";
+import randomNum from '../randomNum.js';
+import runGame from '../index.js';
 
-const operations = ["+", "*", "-"];
+const operations = ['+', '*', '-'];
 
 const calculator = (num1, num2, operator) => {
   switch (operator) {
@@ -19,7 +19,7 @@ const randomNums = (maxes = max, min = 0) => {
   return Math.round(Math.random() * (maxes - min));
 };
 
-const text = "What is the result of the expression?";
+const text = 'What is the result of the expression?';
 
 const gameCalc = () => {
   const number1 = randomNum();

@@ -1,7 +1,7 @@
-import randomNum from "../randomNum.js";
-import runGame from "../index.js";
+import randomNum from '../randomNum.js';
+import runGame from '../index.js';
 
-const description = "What number is missing in the progression?";
+const description = 'What number is missing in the progression?';
 
 const gameProgerssion = (start, step) => {
   const progression = [];
