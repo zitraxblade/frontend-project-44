@@ -22,12 +22,12 @@ const randomNums = (maxes = max, min = 0) => Math.round(Math.random() * (maxes -
 const text = 'What is the result of the expression?';
 
 const gameCalc = () => {
-  const number1 = randomNum();
-  const number2 = randomNum();
-  const operator = operations[randomNums(2)];
-  const question = `${number1} ${operator} ${number2}`;
-  const correctAnswer = String(calculator(number1, number2, operator));
-  return { question, correctAnswer };
+    const number1 = randomNum();
+    const number2 = randomNum();
+    const operator = operations[randomNums(2)];
+    const question = `${number1} ${operator} ${number2}`;
+    const correctAnswer = String(calculator(number1, number2, operator));
+    return { question, correctAnswer };
 };
 
 const runCalc = () => {
