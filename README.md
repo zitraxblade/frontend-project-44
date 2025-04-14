@@ -7,8 +7,10 @@
 Игры предлагают пользователю серию вопросов с несколькими вариантами ответов. Задача пользователя — правильно ответить на определенное количество вопросов подряд. В случае ошибки игра завершается, и пользователь получает сообщение с правильным ответом и предложением попробовать снова.
 
 brain-even — Игра на проверку четности числа. Если ответ неверный, то игра начнется с начала.
-![image](https://github.com/user-attachments/assets/8af68a38-55dc-480d-a5bf-e62b1f736451)
-![image](https://github.com/user-attachments/assets/58e2087d-6598-4fda-bfb1-12795be8741e)
+![image](https://github.com/user-attachments/assets/37e07edd-7780-4a72-a556-1e42bd1f60bf)
+
+![image](https://github.com/user-attachments/assets/49294f4a-05bb-493b-871a-b277b85dda3a)
+
 
 brain-calc — Игра на решение математических выражений. Если ответ неверный, то игра начнется с начала.
 ![image](https://github.com/user-attachments/assets/2e1e06de-75c6-4ebd-ba8f-ac225b0cf884)
