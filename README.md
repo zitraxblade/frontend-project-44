@@ -37,18 +37,26 @@ brain-prime — Игра на проверку, является ли число
 
 
 Запуск игр
+
 Установка зависимостей: npm install
+
 Запуск игры brain-even:
+
 brain-even
 
+
 Запуск игры brain-calc:
+
 brain-calc
 
 Запуск игры brain-gcd:
+
 brain-gcd
 
 Запуск игры brain-progression:
+
 brain-progression
 
 Запуск игры brain-prime:
+
 brain-prime
