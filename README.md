@@ -23,8 +23,9 @@ brain-gcd — Игра на нахождение наибольшего обще
 ![image](https://github.com/user-attachments/assets/3545f793-6f33-4a78-ad66-059209537d3a)
 
 brain-progression — Игра на нахождение пропущенного числа в арифметической прогрессии. 
+![image](https://github.com/user-attachments/assets/5c57f478-172b-4b25-9cc6-6b6ddd38ef27)
+![image](https://github.com/user-attachments/assets/f00939ae-0f79-4daa-916e-fb46062df26b)
 
-![image](https://github.com/user-attachments/assets/00b5800d-08d6-472c-a166-0804a92590ad)
 
 
 brain-prime — Игра на проверку, является ли число простым. Если ответ неверный, то игра начнется с начала.
