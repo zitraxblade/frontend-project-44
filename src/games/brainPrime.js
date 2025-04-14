@@ -1,7 +1,7 @@
 import randomNum from "../randomNum.js";
 import runGame from "../index.js";
 
-const text = '"yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const numPrime = (num) => {
   if (num < 2) {
@@ -22,7 +22,7 @@ const game = () => {
 };
 
 const runPrime = () => {
-  runGame(text, game);
+  runGame(description, game);
 };
 
 export default runPrime;
