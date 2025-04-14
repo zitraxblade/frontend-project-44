@@ -26,7 +26,7 @@ const gameCalc = () => {
   const number2 = randomNum();
   const operator = operations[randomNums(2)];
   const question = `${number1} ${operator} ${number2}`;
-  const correctAnswer = calculator(number1, number2, operator);
+  const correctAnswer = String(calculator(number1, number2, operator));
   return { question, correctAnswer };
 };
 
