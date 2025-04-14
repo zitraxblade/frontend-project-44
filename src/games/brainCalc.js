@@ -5,11 +5,11 @@ const operations = ['+', '*', '-'];
 
 const calculator = (num1, num2, operator) => {
   switch (operator) {
-    case "+":
+    case '+':
       return num1 + num2;
-    case "-":
+    case '-':
       return num1 - num2;
-    case "*":
+    case '*':
       return num1 * num2;
   }
 };

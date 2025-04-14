@@ -2,10 +2,3 @@
 import userRun from '../src/cli.js';
 
 userRun();
-
-
-
-
-
-
-
